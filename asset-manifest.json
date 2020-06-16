@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/heung.win/frontend/static/css/main.2c187ee7.chunk.css",
+    "main.js": "/heung.win/frontend/static/js/main.7f781534.chunk.js",
+    "main.js.map": "/heung.win/frontend/static/js/main.7f781534.chunk.js.map",
+    "runtime-main.js": "/heung.win/frontend/static/js/runtime-main.8714a20c.js",
+    "runtime-main.js.map": "/heung.win/frontend/static/js/runtime-main.8714a20c.js.map",
+    "static/js/2.23b49445.chunk.js": "/heung.win/frontend/static/js/2.23b49445.chunk.js",
+    "static/js/2.23b49445.chunk.js.map": "/heung.win/frontend/static/js/2.23b49445.chunk.js.map",
+    "index.html": "/heung.win/frontend/index.html",
+    "precache-manifest.6d6617192eb274c7c826bdc5c33085d5.js": "/heung.win/frontend/precache-manifest.6d6617192eb274c7c826bdc5c33085d5.js",
+    "service-worker.js": "/heung.win/frontend/service-worker.js",
+    "static/css/main.2c187ee7.chunk.css.map": "/heung.win/frontend/static/css/main.2c187ee7.chunk.css.map",
+    "static/js/2.23b49445.chunk.js.LICENSE.txt": "/heung.win/frontend/static/js/2.23b49445.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8714a20c.js",
+    "static/js/2.23b49445.chunk.js",
+    "static/css/main.2c187ee7.chunk.css",
+    "static/js/main.7f781534.chunk.js"
+  ]
+}
