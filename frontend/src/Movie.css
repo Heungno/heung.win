@@ -38,7 +38,7 @@
     color:#B4B5BD;
 }
 
-.Movie .Movie__Contents {
+.Movie .Movie__Synopsis {
     text-overflow: ellipsis;
     color:#B4B5BD;
     overflow: hidden;
