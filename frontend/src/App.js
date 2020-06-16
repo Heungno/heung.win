@@ -21,8 +21,9 @@ class App extends Component {
       return <Movie
         key={movie.id} 
         title={movie.title} 
-        poster={movie.poster} 
-        contents={movie.contents}
+        medium_cover_image={movie.medium_cover_image} 
+        genres={movie.genres}
+        description_full={movie.description_full}
       />;
     })
     return movies;
@@ -36,9 +37,9 @@ class App extends Component {
   }
 
   _callApi = () => {   
-    return fetch('/users')
-    .then(potato => potato.json())
-    .then(json => json)
+    return fetch('https://yts.mx/api/v2/list_movies.json?sort_by=rating')
+    .then(data => data.json())
+    .then(json => json.data.movies)
     .catch(err => console.log(err))
   }
 
