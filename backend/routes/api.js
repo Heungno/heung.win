@@ -1,21 +1,21 @@
-var express = require("express");
-var router = express.Router();
+import express from "express";
+const router = express.Router();
 
-var graphqlHTTP = require("express-graphql");
-var { buildSchema } = require("graphql");
+import graphqlHTTP from "express-graphql";
+import { buildSchema } from "graphql";
 
-var schema = buildSchema(`
+const schema = buildSchema(`
   type Query {
     hello: String
   }
 `);
 
-var root = { hello: () => "Hello world!👍" };
+const root = { hello: () => "Hello world!👍" };
 
 /**
  * graphql
  */
-router.all( "/graphql", graphqlHTTP({
+router.all( "/movie", graphqlHTTP({
     schema: schema,
     rootValue: root,
     graphiql: true,
